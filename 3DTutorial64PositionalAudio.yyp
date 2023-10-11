@@ -33,6 +33,7 @@
     {"id":{"name":"fnt_game","path":"fonts/fnt_game/fnt_game.yy",},},
     {"id":{"name":"shd_basic_3d_stuff","path":"shaders/shd_basic_3d_stuff/shd_basic_3d_stuff.yy",},},
     {"id":{"name":"tilemap_to_vertex_buffer","path":"scripts/tilemap_to_vertex_buffer/tilemap_to_vertex_buffer.yy",},},
+    {"id":{"name":"bgm_idle_with_accordions","path":"sounds/bgm_idle_with_accordions/bgm_idle_with_accordions.yy",},},
     {"id":{"name":"spr_main","path":"sprites/spr_main/spr_main.yy",},},
     {"id":{"name":"Camera","path":"objects/Camera/Camera.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},

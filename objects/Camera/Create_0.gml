@@ -52,3 +52,14 @@ for (var i = 0; i < n; i++) {
 }
 
 tilemap_vb = tilemap_to_vertex_buffer("GroundTiles", vertex_format);
+
+audio_falloff_set_model(audio_falloff_inverse_distance);
+//audio_play_sound_at(bgm_idle_with_accordions, 250, 250, 40, 200, 2000, 1, true, 100);
+
+merry_x = 250;
+merry_y = 250;
+merry_z = 40;
+merry_emitter = audio_emitter_create();
+audio_emitter_position(merry_emitter, merry_x, merry_y, merry_z);
+audio_emitter_falloff(merry_emitter, 200, 2000, 1);
+audio_play_sound_on(merry_emitter, bgm_idle_with_accordions, true, 100);

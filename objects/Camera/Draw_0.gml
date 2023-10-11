@@ -13,6 +13,9 @@ var xto = xfrom - camera_distance * dcos(Player.look_dir) * dcos(Player.look_pit
 var yto = yfrom + camera_distance * dsin(Player.look_dir) * dcos(Player.look_pitch);
 var zto = zfrom + camera_distance * dsin(Player.look_pitch);
 
+audio_listener_position(xfrom, yfrom, zfrom);
+audio_listener_orientation(xto - xfrom, yto - yfrom, zto - zfrom, 0, 0, -1);
+
 view_mat = matrix_build_lookat(xfrom, yfrom, zfrom, xto, yto, zto, 0, 0, 1);
 proj_mat = matrix_build_projection_perspective_fov(-60, -window_get_width() / window_get_height(), znear, zfar);
 camera_set_view_mat(camera, view_mat);

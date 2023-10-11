@@ -9,6 +9,7 @@
     {"name":"fnt_game","order":1,"path":"fonts/fnt_game/fnt_game.yy",},
     {"name":"shd_basic_3d_stuff","order":4,"path":"shaders/shd_basic_3d_stuff/shd_basic_3d_stuff.yy",},
     {"name":"tilemap_to_vertex_buffer","order":10,"path":"scripts/tilemap_to_vertex_buffer/tilemap_to_vertex_buffer.yy",},
+    {"name":"bgm_idle_with_accordions","order":13,"path":"sounds/bgm_idle_with_accordions/bgm_idle_with_accordions.yy",},
     {"name":"spr_main","order":8,"path":"sprites/spr_main/spr_main.yy",},
     {"name":"Camera","order":6,"path":"objects/Camera/Camera.yy",},
     {"name":"Player","order":7,"path":"objects/Player/Player.yy",},
